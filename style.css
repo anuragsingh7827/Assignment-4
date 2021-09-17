@@ -1,0 +1,1112 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: #e8f8c1;
+}
+nav:first-of-type{
+    background-color: #ffba08;
+    height: 75px;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    z-index: 1;
+}
+nav:first-of-type a{
+    text-decoration: none;
+}
+h1{
+    padding-top: 7px;
+    font: 700 30px 'Lobster Two';
+    
+}
+nav:first-of-type div a{
+    color: #3a0ca3;
+}
+nav:first-of-type div a:active{
+    color: #3a0ca3;
+}
+h6{
+    padding-top: 25px;
+    color: #3a0ca3;
+    font: 700 15px 'Lobster Two';
+}
+nav:first-of-type div:nth-of-type(1){
+    display: flex;
+    justify-content: space-around;
+}
+nav:first-of-type div:nth-of-type(2){
+    display: flex;
+}
+nav:first-of-type input{
+    padding-top: 9px;
+    padding-bottom: 9px;
+    padding-left: 30px;
+    width: 450px;
+    border: none;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    font: 50 17px 'font-regular', sans-serif;
+    background-color: #d8e9ec;
+    transition: background-color 300ms;
+}
+nav:first-of-type input:focus{
+    outline: none;    
+    font: 50 17px 'font-regular', sans-serif;
+    background-color: white;
+    box-shadow: 0px -3px 14px #ccc,
+                3px 0px 14px #ccc,
+                0px 3px 14px #ccc;
+}
+nav:first-of-type div:nth-of-type(2) button{
+    background-color: #001d3d;
+    color: #ccc;
+    padding: 9px 60px;
+    border: none;
+    font: 500 15px 'Open Sans', sans-serif;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+nav:first-of-type div:nth-of-type(2) button:hover{
+    background-color: #003566;
+    cursor: pointer;
+}
+nav:first-of-type ul{
+    list-style: none;
+    width: 570px;
+    display: flex;
+    justify-content: space-between;
+}
+nav:first-of-type ul button{
+    padding: 9px 11px;
+    color: #006466;
+    font: 700 17px 'Open Sans', sans-serif;
+    background-color: #ffba08;
+    border: none;
+    transition: 300ms;
+}
+nav:first-of-type ul button:hover{
+    background-color: #ee964b;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+
+
+/*navbar ends here*/
+
+
+
+nav:last-of-type{
+    position: fixed;
+    top: 75px;
+    width: 100%;
+    background-color: #e63946;
+    z-index: 1;
+    box-shadow: 0px 3px 10px 4px #ccc;
+    display: flex;
+    justify-content: center;
+}
+nav:last-of-type button{
+    padding: 12px 16px;
+    border: none;
+    color: white;
+    background-color: #e63946;
+    font: 300 13px "Roboto";
+    transition: 200ms;
+}
+nav:last-of-type button:hover{
+    background-color: white;
+    color: #e63946;
+    cursor: pointer;
+}
+
+
+
+/*red navbar ends here*/
+
+
+
+#carousal{
+    height: 30vw;
+    width: 89vw;
+    margin-top: 170px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+    position: relative;
+}
+#carousal img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+#carousal img:nth-of-type(1){
+    animation: img1 30s linear infinite normal;
+}
+#carousal img:nth-of-type(2){
+    animation: img2 30s linear infinite normal;
+}
+#carousal img:nth-of-type(3){
+    animation: img3 30s linear infinite normal;
+}
+#carousal img:nth-of-type(4){
+    animation: img4 30s linear infinite normal;
+}
+#carousal img:nth-of-type(5){
+    animation: img5 30s linear infinite normal;
+}
+@keyframes img1{
+    20%{
+        opacity: 0;
+    }
+    40%{
+        opacity: 0;
+    }
+    60%{
+        opacity: 0;
+    }
+    80%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+@keyframes img2{
+    20%{
+        opacity: 0;
+    }
+    40%{
+        opacity: 0;
+    }
+    60%{
+        opacity: 0;
+    }
+    80%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+@keyframes img3{
+    20%{
+        opacity: 0;
+    }
+    40%{
+        opacity: 0;
+    }
+    60%{
+        opacity: 1;
+    }
+    80%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+@keyframes img4{
+    20%{
+        opacity: 0;
+    }
+    40%{
+        opacity: 1;
+    }
+    60%{
+        opacity: 0;
+    }
+    80%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+@keyframes img5{
+    20%{
+        opacity: 1;
+    }
+    40%{
+        opacity: 0;
+    }
+    60%{
+        opacity: 0;
+    }
+    80%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+
+/*caraousel ends here*/
+
+
+.headings{
+    text-align: center;
+    font: 700 38px 'Bad Script';
+    color: #d90429;
+}
+.products{
+    width: 95vw;
+    margin: 60px auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+.products div{
+    width: 320px;
+    margin: 20px;
+    padding: 40px 10px 20px 20px;
+    background-color: white;
+    border-radius: 20px 5px;
+    box-shadow: 0px 0px 2px #ccc;
+    text-align: center;
+    transition: 250ms;
+}
+.products div:hover{
+    box-shadow: 0.5px 0.5px 9px 5px #ccc;
+    background-color: #fefae0;
+    transform: scale(1.007);
+    cursor: pointer;
+}
+figcaption{
+    margin-top: 15px;
+}
+.figname{
+    font: 400 15px 'Open Sans';
+    margin-top: 18px;
+    margin-left: 4px;
+    text-align: left;
+    line-height: 20px;
+    color: #227c9d;
+}
+.figpara{
+    font: 400 15px 'Tajawal';
+    margin-top: 11px;
+    margin-left: 4px;
+    text-align: left;
+    line-height: 16px;
+    color: #545775;
+}
+.figprice{
+    font: 700 18px 'Fira Sans';
+    margin-top: 9px;
+    margin-left: 4px;
+    text-align: left;
+    color: #e76f51;
+}
+.discount{
+    font: 700 15px 'Fira Sans';
+    margin-top: 9px;
+    margin-left: 4px;
+    text-align: left;
+    color: #57cc99;
+}
+.oldprice{
+    text-decoration: line-through;
+    text-align: left;
+    margin-left: 4px;
+    font: 400 15px 'Tajawal';
+    color: #545775;
+}
+.figbutton{
+    display: block;
+    padding: 10px 18px;
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    font: 500 14px 'Roboto';
+    border: none;
+    border-radius: 4px;
+    background-color: #b7e4c7;
+    color:#014f86;
+    transition: 200ms;
+    z-index: -1;
+}
+.figbutton:hover{
+    cursor: pointer;
+    transform: translateY(-0.2rem);
+    box-shadow: 0px 4px 6px #ccc;
+    background-color: #4cc9f0;
+    color: white;
+}
+.figbutton:active{
+    transform: none;
+    box-shadow: none;
+}
+
+
+
+/*cards ends here*/
+
+
+
+h2{
+    text-align: center;
+    font: 700 30px 'Rubik';
+    margin-top: 25px;
+    text-decoration: underline;
+}
+#feedback{
+    width: 85vw;
+    display: flex;
+    margin: 40px auto;
+}
+#feedback #left_half{
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffba08;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    box-shadow: -8px 0px 15px #ccc,
+                0px -8px 15px #ccc,
+                0px 8px 15px #ccc;
+}
+#feedback #left_half img{
+    width: 100px;
+    margin-bottom: 20px;
+}
+#feedback #left_half p{
+    text-align: center;
+    font: 900 25px 'Architects Daughter';
+    color: #014f86;
+}
+#feedback form{
+    padding: 20px;
+    background-color: white;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    box-shadow: 8px 0px 15px #ccc,
+                0px -8px 15px #ccc,
+                0px 8px 15px #ccc;
+}
+#feedback form div{
+    padding: 10px;
+    margin: 10px;
+}
+.special{
+    display: flex;
+    justify-content: space-between;
+}
+#feedback form input{
+    width: 21.3vw;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    border: 2px solid #ffba08;
+    font: 15px;
+    border-radius: 5px;
+}
+#feedback form input:focus{
+    outline: none;
+}
+#feedback form textarea{
+    width: 43.8vw;
+    height: 33vh;
+    padding: 15px;
+    border: 2px solid #ffba08;
+    border-radius: 5px;
+    line-height: 18px;
+}
+#feedback form textarea:focus{
+    font: "Roboto";
+    outline: none;
+
+}
+#feedback form button{
+    width: 46vw;
+    padding: 14px 0px;
+    border: none;
+    color: white;
+    background-color: #ffba08;
+    border-radius: 5px;
+    font: 500 15px 'Roboto';
+    letter-spacing: 2px;
+}
+#feedback form button:hover{
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+
+
+/*form ends here*/
+
+
+
+footer{
+    background-color: rgba(10, 10, 105, 0.85);
+    height: 130px;
+}
+footer div{
+    width: 170px;
+    height: 75px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+    margin: 20px auto;
+}
+footer button{
+    width: 40px;
+    height: 40px;
+    padding-top: 4px;
+    border-radius: 50%;
+    border: 2px solid white;
+    background-color: #ffba08;
+    opacity: 0.9;
+}
+footer button:hover{
+    cursor: pointer;
+    opacity: 1;
+}
+footer p{
+    text-align: center;
+    margin-top: 25px;
+    font: 500 14px'Poppins';
+    color: #ccc;
+}
+
+
+
+/* footer ends here */
+
+
+
+@media screen and (max-width: 1470px){
+    h1{
+        font-size: 28px;
+    }
+    h6{
+        font-size: 13px;
+    }
+    nav:first-of-type div:first-of-type img{
+        width: 50px;
+    }
+    nav:first-of-type{
+        flex-direction: column;
+        height: 150px;
+    }
+    nav:first-of-type input{
+        padding-top: 8px;
+        padding-bottom: 8px;
+        padding-left: 20px;
+        font-size: 16px;
+        width: 380px;
+        border-top-left-radius: 3px;
+        border-bottom-left-radius: 3px;
+
+    }
+    nav:first-of-type div:nth-of-type(2) button{
+        padding: 8px 50px;
+        font-size: 13px;
+        border-top-right-radius: 3px;
+        border-bottom-right-radius: 3px;
+    }
+    nav:first-of-type ul{
+        width: 70vw;
+    }
+    nav:first-of-type ul button{
+        padding: 7px 9px;
+        font-size: 15px;
+    }
+    nav:last-of-type{
+        top: 150px;
+    }
+    #carousal{
+        margin-top: 250px;
+    }
+}
+
+@media screen and (max-width: 1231px){
+    .products{
+        flex-wrap: wrap;
+    }
+    .products div{
+        width: 330px;
+        padding: 70px;
+        border-radius: 28px 10px;
+    }
+    #figimg1{
+        width: 340px;
+        height: 290px;
+        margin-bottom: 20px;
+    }
+    #figimg2{
+        width: 330px;
+        height: 295px;
+        margin-bottom: 12px;
+    }
+    #figimg3{
+        width: 325px;
+        height: 300px;
+        margin-bottom: 25px;
+    }
+    #figimg4{
+        width: 320px;
+        height: 275px;
+    }
+    #figimg5{
+        width: 325px;
+        height: 305px;
+    }
+    #figimg6{
+        width: 325px;
+        height: 300px;
+        margin-bottom: 30px;
+    }
+    #figimg7{
+        width: 340px;
+        height: 310px;
+        margin-bottom: 10px;
+    }
+    #figimg8{
+        width: 325px;
+        height: 300px;
+        margin-bottom: 50px;
+    }
+    #figimg9{
+        width: 350px;
+        height: 300px;
+    }
+    #figimg10{
+        width: 365px;
+        height: 290px;
+        margin-bottom: 55px;
+    }
+    #figimg11{
+        width: 320px;
+        height: 310px;
+    }
+    #figimg12{
+        width: 340px;
+        height: 295px;
+    }
+    figcaption{
+        margin-top: 15px;
+    }
+    .figname{
+        font-size: 25px;
+        line-height: 27px;
+    }
+    .figpara{
+        font-size: 20px;
+        line-height: 23px;
+    }
+    .figprice{
+        font-weight: 700;
+        font-size: 30px;
+    }
+    .discount{
+        font-size: 20px;
+    }
+    .oldprice{
+        font-size: 20px;
+    }
+    .figbutton{
+        padding: 13px 21px;
+        margin-top: 25px;
+        font-weight: 400;
+        font-size: 25px;
+    }
+    #feedback #left_half img{
+        width: 90px;
+        margin-bottom: 16px;
+    }
+    #feedback #left_half p{
+        font-size: 22px;
+    }
+    #feedback form{
+        padding: 17px;
+    }
+    #feedback form div{
+        padding: 9px;
+        margin: 9px;
+    }
+    #feedback form input{
+        padding-top: 9px;
+        padding-bottom: 9px;
+        padding-left: 9px;
+    }
+    #feedback form textarea{
+        height: 25vh;
+        padding: 10px;
+    }
+    #feedback form button{
+        padding: 12px 0px;
+        font-size: 13px;
+    }
+
+}
+@media screen and (max-width: 1074px){
+    .products div{
+        width: 650px;
+        border-radius: 45px 12px;
+    }
+    #figimg1{
+        width: 550px;
+        height: 500px;
+    }
+    #figimg2{
+        width: 550px;
+        height: 500px;
+        margin-bottom: 0px;
+    }
+    #figimg3{
+        width: 520px;
+        height: 500px;
+        margin-bottom: 25px;
+    }
+    #figimg4{
+        width: 550px;
+        height: 450px;
+    }
+    #figimg5{
+        width: 550px;
+        height: 500px;
+    }
+    #figimg6{
+        width: 550px;
+        height: 500px;
+        margin-bottom: 7px;
+    }
+    #figimg7{
+        width: 500px;
+        height: 490px;
+        margin-bottom: 10px;
+    }
+    #figimg8{
+        width: 550px;
+        height: 500px;
+    }
+    #figimg9{
+        width: 550px;
+        height: 500px;
+    }
+    #figimg10{
+        width: 550px;
+        height: 420px;
+        margin-bottom: 30px;
+    }
+    #figimg11{
+        width: 480px;
+        height: 490px;
+    }
+    #figimg12{
+        width: 550px;
+        height: 450px;
+    }
+    figcaption{
+        margin-top: 35px;
+    }
+    .figname{
+        font-size: 35px;
+        line-height: 45px;
+    }
+    .figpara{
+        font-size: 30px;
+        line-height: 31px;
+    }
+    .figprice{
+        font-weight: 700;
+        font-size: 38px;
+    }
+    .discount{
+        font-size: 30px;
+    }
+    .oldprice{
+        font-size: 30px;
+    }
+    .figbutton{
+        padding: 20px 40px;
+        margin-top: 30px;
+        font-weight: 400;
+        font-size: 30px;
+    }
+    #feedback #left_half img{
+        width: 80px;
+        margin-bottom: 13px;
+    }
+    #feedback #left_half p{
+        font-size: 20px;
+    }
+    #feedback form{
+        padding: 15px;
+    }
+    #feedback form div{
+        padding: 7px;
+        margin: 7px;
+    }
+    #feedback form input{
+        padding-top: 8px;
+        padding-bottom: 8px;
+        padding-left: 8px;
+    }
+    #feedback form textarea{
+        height: 21vh;
+        padding: 7px;
+    }
+    #feedback form button{
+        padding: 10px 0px;
+        font-size: 12px;
+    }
+}
+@media screen and (max-width: 990px){
+    nav:last-of-type button{
+        font-size: 10px;
+        padding: 7px 9px;
+    }
+    #carousal{
+        margin-top: 220px;
+    }
+}
+@media screen and (max-width: 821px){
+    .headings{
+        font-size: 30px;
+    }
+    #feedback #left_half img{
+        width: 70px;
+        margin-bottom: 13px;
+    }
+    #feedback #left_half p{
+        font-size: 15px;
+    }
+    #feedback form{
+        padding: 13px;
+    }
+    #feedback form div{
+        padding: 5px;
+        margin: 5px;
+    }
+    #feedback form input{
+        font-size: 10px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 7px;
+    }
+    #feedback form textarea{
+        height: 15vh;
+        padding: 6px;
+    }
+    #feedback form button{
+        padding: 9px 0px;
+        font-size: 11px;
+    }
+}
+@media screen and (max-width: 765px){
+    h1{
+        font-size: 25px;
+    }
+    h6{
+        font-size: 10px;
+    }
+    nav:first-of-type div:first-of-type img{
+        width: 45px;
+    }
+    nav:first-of-type{
+        height: 250px;
+    }
+    nav:first-of-type input{
+        padding-top: 6px;
+        padding-bottom: 6px;
+        padding-left: 15px;
+        font-size: 14px;
+        width: 320px;
+        border-top-left-radius: 2px;
+        border-bottom-left-radius: 2px;
+
+    }
+    nav:first-of-type div:nth-of-type(2) button{
+        padding: 6px 40px;
+        font-size: 11px;
+        border-top-right-radius: 2px;
+        border-bottom-right-radius: 2px;
+    }
+    nav:first-of-type ul{
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        height: 125px;
+    }
+    nav:first-of-type ul button{
+        padding: 5px 7px;
+        font-size: 13px;
+        width: 500vw;
+    }
+    nav:last-of-type{
+        top: 250px;
+        flex-direction: column;
+        align-items: center;
+    }
+    nav:last-of-type button{
+        width: 100%;
+        font-size: 8px;
+        padding: 5px 7px;
+    }
+    #carousal{
+        margin-top: 480px;
+    }
+    .products{
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .products div{
+        width: 240px;
+        padding: 50px;
+    }
+    #figimg1{
+        width: 200px;
+        height: 170px;
+    }
+    #figimg2{
+        width: 200px;
+        height: 185px;
+        margin-bottom: 12px;
+    }
+    #figimg3{
+        width: 220px;
+        height: 205px;
+        margin-bottom: 8px;
+    }
+    #figimg4{
+        width: 230px;
+        height: 175px;
+    }
+    #figimg5{
+        width: 230px;
+        height: 190px;
+    }
+    #figimg6{
+        width: 230px;
+        height: 200px;
+        margin-bottom: 7px;
+    }
+    #figimg7{
+        width: 230px;
+        height: 210px;
+        margin-bottom: 10px;
+    }
+    #figimg8{
+        width: 225px;
+        height: 220px;
+    }
+    #figimg9{
+        width: 230px;
+        height: 200px;
+    }
+    #figimg10{
+        width: 230px;
+        height: 180px;
+        margin-bottom: 30px;
+    }
+    #figimg11{
+        width: 210px;
+        height: 210px;
+    }
+    #figimg12{
+        width: 230px;
+        height: 185px;
+    }
+    figcaption{
+        margin-top: 5px;
+    }
+    .figname{
+        font-size: 15px;
+        line-height: 22px;
+    }
+    .figpara{
+        font-size: 13px;
+        line-height: 17px;
+    }
+    .figprice{
+        font-weight: 700;
+        font-size: 18px;
+    }
+    .discount{
+        font-size: 16px;
+    }
+    .oldprice{
+        font-size: 16px;
+    }
+    .figbutton{
+        padding: 6px 10px;
+        margin-top: 15px;
+        font-weight: 300;
+        font-size: 15px;
+    }
+}
+@media screen and (max-width: 640px){
+    h1{
+        font-size: 22px;
+    }
+    h6{
+        font-size: 7px;
+    }
+    nav:first-of-type div:first-of-type img{
+        width: 40px;
+    }
+    nav:first-of-type{
+        height: 200px;
+    }
+    nav:first-of-type input{
+        padding-top: 4px;
+        padding-bottom: 4px;
+        padding-left: 12px;
+        font-size: 12px;
+        width: 280px;
+        border-top-left-radius: 1px;
+        border-bottom-left-radius: 1px;
+    }
+    nav:first-of-type div:nth-of-type(2) button{
+        padding: 4px 30px;
+        font-size: 9px;
+        border-top-right-radius: 1px;
+        border-bottom-right-radius: 1px;
+    }
+    nav:first-of-type ul{
+        height: 105px;
+    }
+    nav:first-of-type ul button{
+        padding: 3px 5px;
+        font-size: 10px;
+    }
+    nav:last-of-type{
+        top: 200px;
+    }
+    nav:last-of-type button{
+        font-size: 6px;
+        padding: 3px 5px;
+    }
+    #carousal{
+        margin-top: 360px;
+    }
+    #feedback{
+        flex-direction: column;
+    }
+    #feedback #left_half{
+        width: 85vw;
+        height: 30vh;
+        border-bottom-left-radius: 0px;
+        border-top-right-radius: 15px;
+    }
+    #feedback #left_half img{
+        width: 60px;
+        margin-bottom: 13px;
+    }
+    #feedback #left_half p{
+        font-size: 15px;
+    }
+    #feedback form{
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: 15px;
+        padding: 11px;
+    }
+    #feedback form div{
+        padding: 3px;
+        margin: 5px;
+    }
+    #feedback form input{
+        width: 36vw;
+        font-size: 10px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 5px;
+    }
+    #feedback form textarea{
+        width: 75.7vw;
+        height: 30vh;
+        padding: 6px;
+    }
+    #feedback form button{
+        width: 78vw;
+        padding: 11px 0px;
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 600px){
+    #feedback form div{
+        padding: 7px;
+        margin: 7px;
+    }
+    #feedback form input{
+        width: 30vw;
+        font-size: 12px;
+        padding: 10px;
+    }
+    #feedback form textarea{
+        width: 72vw;
+        height: 20vh;
+    }
+    #feedback form button{
+        width: 76.5vw;
+    }
+}
+@media screen and (max-width: 500px){
+    h1{
+        font-size: 20px;
+    }
+    h6{
+        font-size: 6px;
+    }
+    nav:first-of-type div:first-of-type img{
+        width: 35px;
+    }
+    nav:first-of-type{
+        height: 170px;
+    }
+    nav:first-of-type input{
+        padding-top: 2px;
+        padding-bottom: 2px;
+        padding-left: 8px;
+        font-size: 10px;
+        width: 180px;
+        border-top-left-radius: 0.6px;
+        border-bottom-left-radius: 0.6px;
+    }
+    nav:first-of-type div:nth-of-type(2) button{
+        padding: 2px 20px;
+        font-size: 7px;
+        border-top-right-radius: 0.6px;
+        border-bottom-right-radius: 0.6px;
+    }
+    nav:first-of-type ul{
+        height: 90px;
+    }
+    nav:first-of-type ul button{
+        padding: 1px 3px;
+        font-size: 8px;
+    }
+    nav:last-of-type{
+        top: 170px;
+    }
+    nav:last-of-type button{
+        font-size: 5px;
+        padding: 2px 4px;
+    }
+    #carousal{
+        margin-top: 300px;
+    }
+}
+@media screen and (max-width: 484px){
+    #feedback form input{
+        width: 27vw;
+    }
+    #feedback form textarea{
+        width: 69vw;
+        height: 19vh;
+        margin-left: 1px;
+    }
+    #feedback form button{
+        width: 76.5vw;
+    }
+}
